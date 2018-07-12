@@ -26,3 +26,13 @@ public class TestClass {
         String n8 = "Name8";
        // String position1 = "manager";
         String position2 = "worker";
+        if (salary1 > 24000 && experience1>3) {System.out.println("Position of " + n6 + " = " + position2 );}
+        if (salary4 < 15000 && experience4<3) {System.out.println("Newbie: " + n4);}
+        if (salary5 < 15000 && experience5<3) {System.out.println("Newbie: " + n5);}
+        if (salary3 > 15000 && experience3==3) {System.out.println("Junior: " + n3);}
+        if (salary7 == 15000 && experience7<4) {System.out.println("Junior: " + n4);}
+        if (salary8 < 25000 && experience8<4) {System.out.println("Junior: " + n8);}
+
+
+    }
+}
