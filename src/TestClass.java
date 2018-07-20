@@ -16,7 +16,7 @@ public class TestClass {
        // int experience6 = 3;
         int experience7 = 3;
         int experience8 = 3;
-       // String n1 = "Imia1";
+       // String n1 = "Name1";
        // String n2 = "Name2";
         String n3 = "Name3";
         String n4 = "Name4";
