@@ -1,6 +1,6 @@
 public class TestClass {
     public static void main(String[] args) {
-        int salary1 = 25000;
+       /* int salary1 = 25000;
         // int salary2 = 30000;
         int salary3 = 20000;
         int salary4 = 10000;
@@ -35,5 +35,6 @@ public class TestClass {
         if (salary8 < 25000 && experience8<4) {System.out.println("Junior: " + n8);}
 
 
-    }
+    }  */
+
 }
