@@ -9,10 +9,10 @@ class MainClass {
             System.out.println("Current value = "+i);
         }
         System.out.println("Hello World!"); // Display the string.
-        System.out.println("Круто что я учусь программировать!!!"); /* Нужно разобраться с путями к файлам
+        System.out.println("Круто что я учусь программировать!!!");  /*Нужно разобраться с путями к файлам
          и с созданием новых файлов */
 
-        OperatorsPriorityExample ope = new OperatorsPriorityExample();
+       // OperatorsPriorityExample ope = new OperatorsPriorityExample();
     }
 }
 

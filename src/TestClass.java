@@ -1,38 +1,45 @@
 public class TestClass {
     public static void main(String[] args) {
-        int salary1 = 25000;
-       // int salary2 = 30000;
-        int salary3 = 20000;
-        int salary4 = 10000;
-        int salary5 = 10000;
-       // int salary6 = 15000;
-        int salary7 = 15000;
-        int salary8 = 15000;
-        int experience1 = 4;
-       // int experience2 = 6;
-        int experience3 = 3;
-        int experience4 = 1;
-        int experience5 = 1;
-       // int experience6 = 3;
-        int experience7 = 3;
-        int experience8 = 3;
-       // String n1 = "Name1";
-       // String n2 = "Name2";
-        String n3 = "Name3";
-        String n4 = "Name4";
-        String n5 = "Name5";
-        String n6 = "Name6";
-       // String n7 = "Name7";
-        String n8 = "Name8";
-       // String position1 = "manager";
-        String position2 = "worker";
-        if (salary1 > 24000 && experience1>3) {System.out.println("Position of " + n6 + " = " + position2 );}
-        if (salary4 < 15000 && experience4<3) {System.out.println("Newbie: " + n4);}
-        if (salary5 < 15000 && experience5<3) {System.out.println("Newbie: " + n5);}
-        if (salary3 > 15000 && experience3==3) {System.out.println("Junior: " + n3);}
-        if (salary7 == 15000 && experience7<4) {System.out.println("Junior: " + n4);}
-        if (salary8 < 25000 && experience8<4) {System.out.println("Junior: " + n8);}
+        int nums[] = new int[20];
+        int min, max, sum;
+        float average;
+        int count = 1;
+        nums[0] = 10;
+        nums[1] = 10;
+        nums[2] = 1121;
+        nums[3] = 10;
+        nums[4] = 12;
+        nums[5] = 10;
+        nums[6] = 456875;
+        nums[7] = 4;
+        nums[8] = 115;
+        nums[9] = 1325;
+        nums[10] = 10;
+        nums[11] = -170;
+        nums[12] = 106;
+        nums[13] = 1500;
+        nums[14] = -1;
+        nums[15] = 7;
+        nums[16] = 1;
+        nums[17] = 4230;
+        nums[18] = -835;
+        nums[19] = 10000;
+        min = max = nums[0];
+        sum = 0;
 
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = count; j < nums.length; j++) {
+                //if (nums [i] < min) min = nums[i];
+                //if (nums [i] > max) max = nums[i];
+                //sum = nums [i] + sum;
 
+                if (nums[i] == nums[j])
+
+                    System.out.println("Duplicates: index [" + i + "] & [" + j + "]");
+
+            } count = count+1;
+            average = sum / nums.length;
+            //System.out.println( "Min = " + min + ", Max = " + max + ", Sum = " + sum + ", Average = " + average); // nums.length );
+        }
     }
 }
