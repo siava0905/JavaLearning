@@ -12,7 +12,7 @@ public class OperatorsPriorityExample {
             int maxiDohod = (zp + superPremia);
             if (dni < 10) {
                 System.out.println("Вы недостаточно потрудились в этом месяце. Ваша смешная зарплата  =  " + miniDohod);
-            } else if (dni > 10 && dni < 20) {
+            } else if (dni >= 10 && dni < 20) {
                 System.out.println("Вы нормально потрудились в этом месяце! Вам даже хватит оплатить тренировки! Ваша нормальная зарплата  =  " + dohod);
             } else {
                 System.out.println("Вы отлично потрудились в этом месяце! Вам хватает денег  платить за треши, но не хватает времени их посещать!!! Ваша большая зарплата  =  " + maxiDohod);
